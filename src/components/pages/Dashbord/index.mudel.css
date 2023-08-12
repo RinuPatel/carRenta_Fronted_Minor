@@ -1,0 +1,229 @@
+* {
+    width: auto;
+    height: auto;
+}
+
+.banner-image {
+    background-image: url("/public/image/background_image/backgroun1.jpg");
+    background-size: cover;
+}
+
+.text-head {
+    margin: 3rem;
+    font-size: 4rem;
+    font-family: Noto Sans Display SemiCondensed ExtraBold;
+    
+}
+
+.text-mini {
+    margin-left: 5rem;
+    display: inline-block;
+    font-size: 40px;
+    
+}
+
+.display-content {
+    display: inline-flex;
+}
+
+.my-select {
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset -3px -3px rgba(24, 2, 2, 0.5);
+    color: white;
+    display: inline-flex;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    margin-left: 180px;
+    font-size: 1rem;
+    position: relative;
+}
+
+
+.input-from {
+    padding: 0.2rem;
+    width: 18rem;
+    margin-bottom: 2rem;
+
+}
+
+.dropdown select {
+    width: 15rem;
+    padding: 1rem;
+    margin-left: 1.0rem;
+    height: 3rem;
+    font-size: smaller;
+    border-radius: px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    
+}
+
+ .dropdown select option {
+    margin: 30px;
+    padding: 15px;
+    font-weight: bolder;
+    background-color: rgba(231, 43, 43, 0.5);
+}
+
+.city-btn {
+    
+    margin-top: 0px;
+    width: 50%;
+    background-color: rgba(88, 61, 61, 0.5);
+    box-shadow: inset -3px -3px rgba(0, 0, 0, 0.5);
+    color: white;
+    font-weight: bolder;
+    height: 3rem;
+  
+    border: none;
+    outline: none;
+    border-radius: px;
+    font-size: 0.7rem;
+}
+
+.city-btn:hover {
+    cursor: pointer;
+    background-color: rgba(145, 18, 18, 0.1);
+    color: white;
+}
+
+
+
+/* our benefit titles */
+
+.our-benifit-main {
+    margin-top: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 50px;
+    animation: 1s ease-out 0s 1 slideInLeft;
+}
+
+.benefit-title {
+    border-bottom: 4px solid black;
+    margin-left: 35%;
+    margin-right: 35%;
+   
+    border-radius: 10px;
+    color: rgb(24, 20, 20);
+    font-family: Noto Sans Display SemiCondensed ExtraBold;
+    /* margin-left: 15rem; */
+    text-decoration-color: blue;
+
+}
+.nav-width{
+    height: 10px;
+}
+
+/* out benefit items */
+.benefit-line{
+    font-weight: bolder;
+}
+.beninit-item-main{
+    display: inline-flex;
+    margin: 3rem;
+    /* background-color: white; */
+}
+.beninit-item-main h3{
+    font-weight: bolder;
+    font-family: cursive;
+}
+.benenit-item{
+    text-align: center;
+}
+@keyframes slideInLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+@media only screen and (min-width:0px) and (max-width:800px) {
+ 
+    #header-dashbord {
+        font-size: 28px;
+        margin-left: 2rem;
+    }
+
+    #title-dashbord {
+        font-size: 20px;
+        display: inline-block;
+        margin-left: 2rem;
+    }
+
+    #display {
+        display: inline-block;
+    }
+
+    #display{
+        display: inline;
+    }
+    #text-head{
+        margin-top: -45%;
+    }
+    #benefit-main{
+        text-align: center;
+        text-transform: uppercase;
+        
+    }
+    #benefit-title{
+        margin-left: 20%;
+        margin-right: 15%;
+    }  
+    .benefit-line{
+        text-align: center;
+    } 
+    .beninit-item-main{
+        display: inline-block;
+        margin: 3rem;
+    } 
+    .city-btn {
+        padding: 0.3rem;
+    }
+    .my-select {
+       margin-top: 15px;
+        margin-left: 10px;
+       
+    }
+    
+    
+}
+@media only screen and (min-width:800px) and (max-width:1080px) {
+    .banner-image {
+        background-image: url("/public/image/background_image/backgroun1.jpg");
+        background-size: cover;
+    }
+    #header-dashbord {
+        
+        margin-left: 2rem;
+    }
+    #display{
+        display: inline;
+    }
+    #text-head{
+        margin-top: -45%;
+    }
+
+}
+@media only screen and (min-width:1080px) and (max-width:1262px) {
+    .banner-image {
+        background-image: url("/public/image/background_image/backgroun1.jpg");
+        background-size: cover;
+    }
+    #header-dashbord {
+        
+        margin-left: 2rem;
+    }
+    #display{
+        display: inline;
+    }
+    #text-head{
+        margin-top: -45%;
+    }
+
+}
